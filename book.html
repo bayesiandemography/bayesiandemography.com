@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,14 +32,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f1aaa16d17899d6b90d1a7e2af5cc410.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b65e393ca5f5fd48be8ba1991f919bb1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -155,19 +156,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="bayesian-demographic-estimation-and-forecasting" class="level3">
-<h3 class="anchored" data-anchor-id="bayesian-demographic-estimation-and-forecasting"><em>Bayesian Demographic Estimation and Forecasting</em></h3>
-<p>John Bryant &amp; Junni L. Zhang. 2018. (Chapman &amp; Hall/CRC)</p>
-<p>Three statistical frameworks for modern demographic estimation and forecasting.</p>
 <p><img src="bdef_book.jpg" class="img-fluid"></p>
 <ul>
 <li><a href="https://www.bdef-book.com/">Book website</a></li>
 <li><a href="https://www.routledge.com/Bayesian-Demographic-Estimation-and-Forecasting/Bryant-Zhang/p/book/9780367571368">CRC Press</a></li>
 </ul>
-<p><em>Bayesian Demographic Estimation and Forecasting</em> uses R packages <code>dembase</code>, <code>demest</code>, <code>demlife</code>, <code>demdata</code>, and <code>bdefdata</code>. These packages are available on the <a href="https://github.com/StatisticsNZ">Statistics New Zealand GitHub repository</a>. We are, however, no longer updating these packages. For any new code, please use the packages listed in <a href="./software.html">Software</a>.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -221,13 +216,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
