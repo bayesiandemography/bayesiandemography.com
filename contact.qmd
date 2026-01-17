@@ -2,6 +2,6 @@
 title: "Contact"
 ---
 
-**Email:** <a href="mailto:john@bayesiandemography.com">john@bayesiandemography.com</a>  
+<a href="mailto:john@bayesiandemography.com">john@bayesiandemography.com</a>  
 
 Christchurch, New Zealand · Phu Wiang, Thailand
