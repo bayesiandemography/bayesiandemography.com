@@ -9,7 +9,7 @@ Dynamic Population Model Project Team. (2023).
 
 ---
 
-#### Modelling and forecasting childhood obesity using admin data
+##### Modelling and forecasting childhood obesity using admin data
 Bryant, J., Rittirong, J., Aekplakorn, W., Mo-suwan, L., & Nitnara, P. (2022).  
 **A Bayesian approach to combining multiple information sources: Estimating and forecasting childhood obesity in Thailand.** *PLOS ONE*.  
 <https://doi.org/10.1371/journal.pone.0262047>
