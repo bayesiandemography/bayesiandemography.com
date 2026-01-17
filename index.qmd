@@ -1,0 +1,24 @@
+---
+title: "Demography for the twenty-first century"
+page-layout: full
+---
+
+
+We develop and apply new demographic methods. We are the authors of the book [Bayesian Demographic Estimation and Forecasting](https://www.routledge.com/Bayesian-Demographic-Estimation-and-Forecasting/Bryant-Zhang/p/book/9780367571368), and the developers of the R package [bage](https://CRAN.R-project.org/package=bage).
+
+Our methods work with
+
+- noisy data, 
+- small populations, and
+- multiple data sources.
+
+We help organizations with
+
+- building analysis pipelines, and
+- one-off analyses.
+
+Current projects include
+
+- redesigning the UK population estimation system,
+- estimating historical Māori populations, and
+- measuring life expectancy for First Nations Australians.

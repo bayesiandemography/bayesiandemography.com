@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Bayesian Demography Limited"
+  site-url: https://bayesiandemography.com
+  navbar:
+    left:
+      - href: people.qmd
+        text: People
+      - text: Resources
+        menu:
+          - text: Papers
+            href: papers.qmd
+          - text: Software
+            href: software.qmd
+          - text: Book
+            href: book.qmd
+          - text: ---
+          - text: GitHub (org)
+            href: https://github.com/bayesiandemography
+            target: _blank
+      - href: contact.qmd
+        text: Contact
+  search:
+    location: navbar
+    type: overlay
+  page-footer:
+    left: "© {{< meta year >}} Bayesian Demography Limited"
+    right: "Built with Quarto"
+
+format:
+  html:
+    theme:
+      light: lux
+    bslib:
+      navbar-bg: "#6495ed"
+      navbar-fg: "white"
+    css: styles.css
+    toc: false
+    grid:
+      body-width: 980px
+    smooth-scroll: true
+    # Auto-detect light/dark if you want:
+    # respect-user-color-scheme: true
+
+# global metadata you can re-use
+year: 2026

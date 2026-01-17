@@ -1,0 +1,8 @@
+---
+title: "Software"
+---
+
+- [bage](https://CRAN.R-project.org/package=bage) Fast Bayesian estimation and forecasting of demographic rates
+- [poputils](https://CRAN.R-project.org/package=poputils) Tools for demographic analysis
+- [rvec](https://CRAN.R-project.org/package=rvec) Vectors representing random variables
+- [command](https://CRAN.R-project.org/package=command) Reproducible research

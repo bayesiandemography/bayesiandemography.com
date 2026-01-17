@@ -1,0 +1,41 @@
+# ---- Quarto ----
+/.quarto/
+/_site/
+
+# ---- R ----
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ---- Build / cache ----
+**/.cache/
+**/__pycache__/
+*.log
+
+# ---- Temporary files ----
+*.tmp
+*.bak
+*~
+
+# ---- Netlify / other hosts (if ever used) ----
+.netlify/
+
+# ---- PDF / LaTeX aux (if rendering PDFs locally) ----
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.toc
+*.synctex.gz

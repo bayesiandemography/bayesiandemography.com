@@ -1,0 +1,17 @@
+---
+title: "Book"
+---
+
+### *Bayesian Demographic Estimation and Forecasting*  
+John Bryant & Junni L. Zhang. 2018. (Chapman & Hall/CRC)
+
+Three statistical frameworks for modern demographic estimation and forecasting.
+
+
+![](bdef_book.jpg)
+
+
+- [Book website](https://www.bdef-book.com/)
+- [CRC Press](https://www.routledge.com/Bayesian-Demographic-Estimation-and-Forecasting/Bryant-Zhang/p/book/9780367571368)
+
+*Bayesian Demographic Estimation and Forecasting* uses R packages `dembase`, `demest`, `demlife`, `demdata`, and `bdefdata`. These packages are available on the [Statistics New Zealand GitHub repository](https://github.com/StatisticsNZ). We are, however, no longer updating these packages. For any new code, please use the packages listed in [Software](software.qmd).
