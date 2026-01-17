@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "John Bryant\n\n\nJohn is a demographer and data scientist, specialising in Bayesian analysis, applied demography, and statistical computing. He has worked at Statistics New Zealand, the New Zealand Treasury, and the Institute for Population and Social Research in Thailand. He has a PhD in Demography from the Australian National University\n\nEmail: john@bayesiandemography.com\n\n\n\n\n\nJunni Zhang\n\n\nJunni is a statistician who likes tackling real problems. She is an Associate Professor at Peking University, China. She has skills in Bayesian statistics, machine learning, text mining, causal inference, and applied demography. She has a Ph.D. in Statistics from Harvard University.\n\nEmail: junni@bayesiandemography.com"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Demography for the twenty-first century",
+    "section": "",
+    "text": "We develop and apply new demographic methods. We are the authors of the book Bayesian Demographic Estimation and Forecasting, and the developers of the R package bage.\nOur methods work with\n\nnoisy data,\nsmall populations, and\nmultiple data sources.\n\nWe help organizations with\n\nbuilding analysis pipelines, and\none-off analyses.\n\nCurrent projects include\n\nredesigning the UK population estimation system,\nestimating historical Māori populations, and\nmeasuring life expectancy for First Nations Australians."
+  },
+  {
+    "objectID": "papers.html",
+    "href": "papers.html",
+    "title": "Selected Papers",
+    "section": "",
+    "text": "Subnational population estimation in England and Wales\nDynamic Population Model Project Team. (2023). Design and Implementation of the Dynamic Population Model: Version 2.0 https://uksa.statisticsauthority.gov.uk/wp-content/uploads/2023/02/EAP193-DPM-progress-report-and-technical-paper.pdf\n\nBryant, J., Rittirong, J., Aekplakorn, W., Mo-suwan, L., & Nitnara, P. (2022).\nA Bayesian approach to combining multiple information sources: Estimating and forecasting childhood obesity in Thailand. PLOS ONE.\nhttps://doi.org/10.1371/journal.pone.0262047\n\n\n\nUsing multiple data sources to estimate and forecast childhood obesity\nBryant, J., Rittirong, J., Aekplakorn, W., Mo-suwan, L., & Nitnara, P. (2022).\nA Bayesian approach to combining multiple information sources: Estimating and forecasting childhood obesity in Thailand. PLOS ONE.\nhttps://doi.org/10.1371/journal.pone.0262047\n\n\n\nEstimating obesity rates for very small groups\nRittirong, J., Bryant, J., Aekplakorn, W., Prohmmo, A., & Sunpuwan, M. (2021).\nObesity and occupation in Thailand: using a Bayesian hierarchical model to obtain prevalence estimates from the National Health Examination Survey. BMC Public Health, 21, 914.\nhttps://doi.org/10.1186/s12889-021-10944-0\n\n\n\nForecasting migration with very small counts\nZhang, J., & Bryant, J. (2020).\nBayesian disaggregated forecasts: Internal migration in Iceland. In S. Mazzuco & N. Keilman (Eds.), Developments in Demographic Forecasting. Springer.\nhttps://doi.org/10.1007/978-3-030-42472-5_10\n\n\n\nBayesian benchmarking of small area estimates\nZhang, J., & Bryant, J. (2020).\nFully Bayesian benchmarking of small area estimation models. Journal of Official Statistics, 36(1), 197–223.\nhttps://doi.org/10.2478/jos-2020-0010\n\n\n\nCombining multiple imperfect data sources for small area estimation\nZhang, J., & Bryant, J. (2019).\nCombining multiple imperfect data sources for small area estimation: a Bayesian model of provincial fertility rates in Cambodia. Statistical Theory and Related Fields, 3(2), 178–185.\nhttps://doi.org/10.1080/24754269.2019.1658062\n\n\n\nBrief introduction to Bayesian demography\nBijak, J., & Bryant, J. (2019).\nBayesian demography. Statistics Reference Online. John Wiley & Sons, Ltd.\nhttps://doi.org/10.1002/9781118445112.stat07838\n\n\n\nBayesian small area demography\nZhang, J., Bryant, J., & Nissen, K. (2019).\nBayesian small area demography. Survey Methodology, 45(1).\nhttps://www150.statcan.gc.ca/n1/pub/12-001-x/2019001/article/00001-eng.pdf\n\n\n\nBayesian forecasting of demographic rates for small areas\nBryant, J., & Zhang, J. (2016).\nBayesian forecasting of demographic rates for small areas: Emigration rates by age, sex, and region in New Zealand, 2014–2038. Statistica Sinica, 26, 1337–1364.\nhttps://doi.org/10.5705/ss.202015.0345\n\n\n\nBayesian demography 250 years after Bayes\nBijak, J., & Bryant, J. (2016).\nBayesian demography 250 years after Bayes. Population Studies, 70(1), 1–19.\nhttps://doi.org/10.1080/00324728.2015.1122826\n\n\n\nProbabilistic forecasts for informed decision making\nBijak, J., Alberts, I., Alho, J., Bryant, J., Buettner, T., Falkingham, J., Forster, J., Gerland, P., King, T., Onorante, L., Keilman, N., O’Hagan, A., Owens, D., Raftery, A., Ševčíková, H., & Smith, P. (2016).\nLetter to the Editor: Probabilistic population forecasts for informed decision making. Journal of Official Statistics, 31(4), 537–544.\nhttps://doi.org/10.1515/jos-2015-0035\n\n\n\nA Bayesian approach to population estimation\nBryant, J., & Graham, P. (2015).\nA Bayesian approach to population estimation with administrative data. Journal of Official Statistics, 31(3).\nhttps://doi.org/10.1515/jos-2015-0028\n\n\n\nBayesian demographic accounts\nBryant, J., & Graham, P. (2013).\nBayesian demographic accounts: Subnational population estimation using multiple data sources. Bayesian Analysis, 8(3), 591–622.\nhttps://doi.org/10.1214/13-BA820"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Email: john@bayesiandemography.com\nLocations: Christchurch, New Zealand · Phu Vieng, Thailand"
+  },
+  {
+    "objectID": "book.html",
+    "href": "book.html",
+    "title": "Book",
+    "section": "",
+    "text": "Bayesian Demographic Estimation and Forecasting\nJohn Bryant & Junni L. Zhang. 2018. (Chapman & Hall/CRC)\nThree statistical frameworks for modern demographic estimation and forecasting.\n\n\nBook website\nCRC Press\n\nBayesian Demographic Estimation and Forecasting uses R packages dembase, demest, demlife, demdata, and bdefdata. These packages are available on the Statistics New Zealand GitHub repository. We are, however, no longer updating these packages. For any new code, please use the packages listed in Software."
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "bage Fast Bayesian estimation and forecasting of demographic rates\npoputils Tools for demographic analysis\nrvec Vectors representing random variables\ncommand Reproducible research"
+  }
+]
