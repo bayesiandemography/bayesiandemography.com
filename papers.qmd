@@ -9,6 +9,7 @@ Dynamic Population Model Project Team. (2023).
 
 ---
 
+#### Modelling and forecasting childhood obesity using admin data
 Bryant, J., Rittirong, J., Aekplakorn, W., Mo-suwan, L., & Nitnara, P. (2022).  
 **A Bayesian approach to combining multiple information sources: Estimating and forecasting childhood obesity in Thailand.** *PLOS ONE*.  
 <https://doi.org/10.1371/journal.pone.0262047>
@@ -22,14 +23,14 @@ Bryant, J., Rittirong, J., Aekplakorn, W., Mo-suwan, L., & Nitnara, P. (2022).
 
 ---
 
-##### Estimating obesity rates for very small groups
+##### Estimating obesity rates for small groups
 Rittirong, J., Bryant, J., Aekplakorn, W., Prohmmo, A., & Sunpuwan, M. (2021).  
 **Obesity and occupation in Thailand: using a Bayesian hierarchical model to obtain prevalence estimates from the National Health Examination Survey.** *BMC Public Health*, 21, 914.  
 <https://doi.org/10.1186/s12889-021-10944-0>
 
 ---
 
-##### Forecasting migration with very small counts
+##### Forecasting migration with small counts
 Zhang, J., & Bryant, J. (2020).  
 **Bayesian disaggregated forecasts: Internal migration in Iceland.** In S. Mazzuco & N. Keilman (Eds.), *Developments in Demographic Forecasting*. Springer.  
 <https://doi.org/10.1007/978-3-030-42472-5_10>

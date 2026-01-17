@@ -4,7 +4,8 @@ project:
 
 website:
   title: "Bayesian Demography Limited"
-  site-url: https://bayesiandemography.com
+  # site-url: https://bayesiandemography.com
+  site-url: https://bayesiandemography.github.io/bayesiandemography.com
   navbar:
     left:
       - href: people.qmd
