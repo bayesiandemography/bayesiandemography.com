@@ -1,11 +1,10 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
 
 website:
   title: "Bayesian Demography Limited"
-  # site-url: https://bayesiandemography.com
-  site-url: https://bayesiandemography.github.io/bayesiandemography.com
+  site-url: https://bayesiandemography.com
   navbar:
     left:
       - href: people.qmd
@@ -43,8 +42,5 @@ format:
     grid:
       body-width: 980px
     smooth-scroll: true
-    # Auto-detect light/dark if you want:
-    # respect-user-color-scheme: true
 
-# global metadata you can re-use
 year: 2026

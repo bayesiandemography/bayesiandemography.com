@@ -1,0 +1,166 @@
+/* -------------------------------
+   Bayesian Demography – Site Styles
+   ------------------------------- */
+
+/* Accent color */
+:root {
+  --accent: #2b6cb0;
+}
+
+.people-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 0.75rem auto;
+}
+
+/* Links and typography */
+a {
+  text-decoration: none;
+  color: var(--accent);
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  letter-spacing: .2px;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  font-weight: 600;
+}
+
+/* Title banner spacing */
+.quarto-title-banner {
+  padding: 2.5rem 0;
+}
+
+/* Narrower content for better readability */
+.max-640 {
+  max-width: 640px;
+}
+
+/* Hero call-to-action button */
+.hero-cta {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: .6rem 1rem;
+  border-radius: .5rem;
+  background: var(--accent);
+  color: #fff;
+}
+
+/* Card layout used for people/software blocks */
+.grid-cards {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.card {
+  border: 1px solid #eee;
+  border-radius: .75rem;
+  padding: 1rem;
+  transition: box-shadow .2s;
+}
+.card:hover {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, .06);
+}
+
+/* -------------------------------
+   Navbar styling (Lux overrides)
+   ------------------------------- */
+
+/* Change the top bar color (Lux default is black) */
+.navbar {
+  background-color: #2b6cb0 !important;  /* your brand blue */
+}
+
+/* Navbar link and brand colors */
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #fff !important;
+}
+.navbar .nav-link:hover {
+  color: #dbe9ff !important;
+}
+
+/* Hamburger (mobile menu) button */
+.navbar .navbar-toggler {
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Hamburger icon */
+
+/* Match hamburger icon color to search icon */
+.navbar .navbar-toggler-icon {
+  filter: none !important;          /* disable invert() */
+  mask-image: none !important;
+  color: #ffffff !important;        /* same color as search icon */
+  fill: #ffffff !important;
+}
+
+/* If Quarto is injecting an inline SVG icon */
+.navbar .navbar-toggler svg,
+.navbar .navbar-toggler i,
+.navbar .navbar-toggler .bi {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+}
+
+/* Optional hover tint (same as search hover color) */
+.navbar .navbar-toggler:hover svg,
+.navbar .navbar-toggler:hover i,
+.navbar .navbar-toggler:hover .bi {
+  color: #dbe9ff !important;
+  fill: #dbe9ff !important;
+}
+
+/* -------------------------------
+   Search icon & overlay
+   ------------------------------- */
+
+/* Search icon (magnifying glass) color */
+button#quarto-search {
+  color: #ffffff !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Hover color for search icon */
+button#quarto-search:hover {
+  color: #dbe9ff !important;
+}
+
+/* Ensure SVG icon fills white */
+button#quarto-search svg,
+button#quarto-search i,
+button#quarto-search .bi {
+  fill: #ffffff !important;
+  color: #ffffff !important;
+}
+
+/* Hover effect for SVG */
+button#quarto-search:hover svg,
+button#quarto-search:hover i,
+button#quarto-search:hover .bi {
+  fill: #dbe9ff !important;
+  color: #dbe9ff !important;
+}
+
+/* Optional: style the search overlay to match navbar */
+#quarto-search-results {
+  background-color: #f8f9fa !important; /* light background for results */
+}
+
+/* -------------------------------
+   Utility tweaks
+   ------------------------------- */
+
+hr {
+  border-top: 1px solid #eee;
+}
