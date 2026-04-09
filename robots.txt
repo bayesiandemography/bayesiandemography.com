@@ -1,1 +1,1 @@
-Sitemap: https://bayesiandemography.github.io/bayesiandemography.com/sitemap.xml
+Sitemap: https://bayesiandemography.com/sitemap.xml
